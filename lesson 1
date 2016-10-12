@@ -64,6 +64,9 @@ print (list(name))
 
 Filter函数：(返回列表, python3 返回的是迭代器)
 
+filter(function,sequence)
+function返回值必须为bool值，为True的时候，保留过滤的参数
+
 **********************************************************************
 def f2(x):
     return x%2!=0
