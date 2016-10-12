@@ -3,7 +3,7 @@
 
 注意！！！！！！！！            （内置函数 ）
 
-Python 3 中 ：range函数以及filter函数以及map函数返回的是迭代器，打印要加list
+Python 3 中 ：filter函数以及map函数返回的是迭代器，打印要加list
 
 
 
@@ -68,7 +68,7 @@ Filter函数：(返回列表, python3 返回的是迭代器)
 def f2(x):
     return x%2!=0
     
-l = filter(f2,list(range(1,10)))
+l = filter(f2,range(1,10))
 
 print(list(l))
 
